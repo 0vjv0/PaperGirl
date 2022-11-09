@@ -29,7 +29,6 @@ class LevelManager: MonoBehaviour
         currentDate = 1;
         Today = "Monday";
         Hood = "Suburb";
-        Difficulty = 1f;
         //Write to Sricptable Object
 
         SceneManager.LoadScene("Neighborhood", LoadSceneMode.Additive);
@@ -45,7 +44,6 @@ class LevelManager: MonoBehaviour
     {
         UpdateCalendar();
         UpdateHood();
-        IncreaseDifficulty();
         //UpdateWeather();
         // Writescriptable
     }
